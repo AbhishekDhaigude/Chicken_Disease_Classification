@@ -4,6 +4,8 @@ import logging
 
 logging.basicConfig(level=logging.INFO,format='[%(asctime)s]: %(message)s:')
 
+# here in projectname we must put our actual project name
+
 project_name = "cnnClassifier"
 
 list_of_files = [
@@ -21,8 +23,8 @@ list_of_files = [
     "params.yaml",
     "requirements.txt",
     "setup.py",
-    "research/trials.ipynb"
-
+    "research/trials.ipynb",
+    "templates/index.html"
 ]
 
 for filepath in list_of_files:
